@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
-      title: "Aplikasi Pertemuan 5",
+      title: "Aplikasi MU Pertemuan 5",
       routeInformationProvider: AppRoutes.goRouter.routeInformationProvider,
       routerDelegate: AppRoutes.goRouter.routerDelegate,
       routeInformationParser: AppRoutes.goRouter.routeInformationParser,

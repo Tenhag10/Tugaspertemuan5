@@ -35,8 +35,7 @@ class HeaderWidget extends StatelessWidget {
         ),
         CircleAvatar(
           backgroundImage: NetworkImage(
-            user.profileImage ??
-                "https://www.msahq.org/wp-content/uploads/2016/12/default-avatar.png",
+            user.profileImage ?? "botak.jpg",
           ),
         ),
       ],
@@ -56,19 +55,19 @@ class MenuWidget extends StatelessWidget {
       children: [
         menuItem(
           iconData: Icons.home_rounded,
-          label: "House",
+          label: "Latest",
         ),
         menuItem(
           iconData: Icons.apartment_rounded,
-          label: "Apartment",
+          label: "Shop",
         ),
         menuItem(
           iconData: Icons.landscape_rounded,
-          label: "Land",
+          label: "Fixtures",
         ),
         menuItem(
           iconData: Icons.location_city_rounded,
-          label: "Townhouse",
+          label: "MU TV",
         ),
       ],
     );
